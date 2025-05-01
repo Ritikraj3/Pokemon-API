@@ -215,13 +215,6 @@ img {
         padding: 16px
     }
 
-    .icon {
-        position: absolute;
-        top: 105px;
-        z-index: 10;
-        left: 25px;
-    }
-
     .pokemon-heading {
         font-size: 1rem; 
         letter-spacing: 3px; 

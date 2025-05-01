@@ -2,10 +2,6 @@ main .shimmer-card {
     --shimmer-color: hsl(0, 77%, 72%);
 }
 
-main.dark .shimmer-card {
-    --shimmer-color: hsl(0, 56%, 64%);
-}
-
 .pokemon-container {
     text-align: center;
 }
@@ -13,7 +9,7 @@ main.dark .shimmer-card {
 .shimmer-card {
     height: 338px;
     display: inline-block;
-    background-color: var(--elements-color);
+    background-color: rgb(248, 194, 194);
     text-align: center;
 }
 
