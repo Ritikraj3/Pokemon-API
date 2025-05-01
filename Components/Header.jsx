@@ -9,9 +9,6 @@ export default function Header() {
           </a>
         </h2>
         <h2 className="pokemon-heading" >PokéSpot</h2>
-        <p className="theme-changer">
-          <i className="fa-regular fa-sun"></i> Light Mode
-        </p>
       </div>
     </header>
   );

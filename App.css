@@ -7,11 +7,13 @@
 body {
     margin: 0;
     font-family: Nunito, sans-serif;
+    background: linear-gradient(135deg, #ffdcd4, #feb47b);
+
 }
 
 .header-container {
     box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.2);
-    background-color: antiquewhite;
+    background-color: rgb(255, 193, 162);
     padding-inline: 24px; 
     position: sticky;
     top: 0;
@@ -73,8 +75,8 @@ img {
     padding-left: 24px;
     color: dimgray;
     overflow: hidden;
-    background-color: var(--elements-color);
-    color: var(--text-color);
+    background-color: #ffb3b1 ;
+    color: black;
 }
 
 .search-container input {
@@ -97,8 +99,7 @@ img {
     border: none;
     outline: none;
     box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.1);
-    background-color: var(--elements-color);
-    color: var(--text-color);
+    background-color: #ffb3b1 ;
     
 }
 
