@@ -8,7 +8,7 @@ export default function Header() {
             <img src={logo} alt="image" />
           </a>
         </h2>
-        <h2 className="pokemon-heading" >PokeSpot</h2>
+        <h2 className="pokemon-heading" >PokéSpot</h2>
         <p className="theme-changer">
           <i className="fa-regular fa-sun"></i> Light Mode
         </p>
