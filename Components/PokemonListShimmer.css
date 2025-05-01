@@ -1,9 +1,9 @@
 main .shimmer-card {
-    --shimmer-color: hsl(0, 0%, 78%);
+    --shimmer-color: hsl(0, 77%, 72%);
 }
 
 main.dark .shimmer-card {
-    --shimmer-color: hsl(208, 21%, 34%);
+    --shimmer-color: hsl(0, 56%, 64%);
 }
 
 .pokemon-container {
