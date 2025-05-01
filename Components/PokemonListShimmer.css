@@ -1,0 +1,42 @@
+main .shimmer-card {
+    --shimmer-color: hsl(0, 0%, 78%);
+}
+
+main.dark .shimmer-card {
+    --shimmer-color: hsl(208, 21%, 34%);
+}
+
+.pokemon-container {
+    text-align: center;
+}
+
+.shimmer-card {
+    height: 338px;
+    display: inline-block;
+    background-color: var(--elements-color);
+    text-align: center;
+}
+
+.shimmer-card .image-container {
+    width: 100%;
+    height:50%;
+    background-color: var(--shimmer-color);
+}
+
+.shimmer-card .card-title {
+    height: 32px;
+    width: 80%;
+    background-color: var(--shimmer-color);
+    border-radius: 4px;
+}
+
+.shimmer-card p {
+    height: 20px;
+    width: 70%;
+    border-radius: 4px;
+    background-color: var(--shimmer-color);
+}
+
+.shimmer-card p:last-child {
+    width: 80%;
+}
